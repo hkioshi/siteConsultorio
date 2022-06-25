@@ -9,29 +9,54 @@
   <link rel="shortcut icon" type="imagex/png" href="imagens/logo.ico">
 </head>
 <body>
+
   <header>
     <div id="divDoTopo">
       <div id="logoBox">
         <div id="imagemLogo"></div>
         <div id="textoLogo"></div>
       </div>
+
       <div id="indiceBox">
-        <div class="indiceBotao">Inicio</div>
-        <div class="indiceBotao">Consultorio</div>
-        <div class="indiceBotao">Tratamentos</div>
-        <div class="indiceBotao">Sobre nós</div>
-        <div class="indiceBotao">contato</div>
+        <div class="indiceBotao" id="inicioId" onclick="irParaInicio()">Inicio</div>
+        <div class="indiceBotao" id="consultorioId" onclick="irParaConsultorio()">Consultorio</div>
+        <div class="indiceBotao" id="tratamentoId"  onclick="irParaTratamentos()">Tratamentos</div>
+        <div class="indiceBotao" id="sobrenosId"  onclick="irParaSobreNos()">Sobre nós</div>
+        <div class="indiceBotao" id="contatoId"  onclick="irParaContato()">contato</div>
       </div>
+
     </div>
   </header>
-  <main>
-    <a href="https://api.whatsapp.com/send?phone=5511978488334" target="_blank" ><div id="whatsapp"></div></a>
-    <div id="avisobox">
-      <h2> Aviso </h2>
-      <p>Só atendemos com consulta marcada</p>
-    </div>
-    <div id="slide"></div>
 
+  <main>
+    <div id="inicio">
+     
+      <div id="avisobox">
+        <h2> Aviso </h2>
+        <p>Só atendemos com consulta marcada</p>
+      </div>
+      <div id="slide"> 
+        <div id="setaDireita"></div>
+        <div id="setaEsquerda"></div>
+      </div>
+    </div>
+
+    <div id="consultorio">
+
+    </div>
+
+    <div id="tratamentos">
+
+    </div>
+
+    <div id="sobrenos">
+
+    </div>
+
+    <div id="contato">
+
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=5511978488334" target="_blank" ><div id="whatsapp"></div></a>
   </main>
 
   <script src="script.js"></script>  

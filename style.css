@@ -13,12 +13,6 @@ body
  
 }
 
-
-div
-{
-   
-}
-
 /*Começo do indice*/
 
 #divDoTopo
@@ -163,7 +157,7 @@ div
 
 #slide
 {
-    border: 1px solid black;
+    border: 2px solid plum;
     width: 60%;
     height: 0;
     padding-bottom: 20%;
@@ -171,4 +165,67 @@ div
     top: 22%;
     left: 6%;
     border-radius: 20px;
+}
+
+#setaDireita
+{
+    width: 3.5%;
+    height: 0;
+    padding-bottom: 5%;
+    background-image: url("imagens/setaDireita.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right:2%;
+    top: 40%;
+    
+}
+
+#setaEsquerda
+{
+    width: 3.5%;
+    height: 0;
+    padding-bottom: 5%;
+    background-image: url("imagens/setaEsquerda.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2%;
+    top: 40%;
+
+}
+
+#inicio
+{
+    transition: all 1s;
+
+}
+
+#consultorio
+{
+    transition: all 1s;
+    display: none;
+
+
+}
+
+#tratamento
+{
+    transition: all 1s;
+    display: none;
+
+}
+
+#sobrenos
+{
+    transition: all 1s;
+    display: none;
+
+}
+
+#contato
+{
+    transition: all 1s;
+    display: none;
+
 }
