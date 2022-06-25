@@ -1,0 +1,82 @@
+<p>  Dra Celia A. W. Yamauchi formou-se pela faculdade de
+    Odontologia de Santo Amaro (Atual Unisa) em 1994, estagiou por 3 anos em odontopediatria, concluiu o curso
+    de odontologia miofuncional, prótese fixa imediata e Auriculoterapia.</p>
+
+
+<p> "Prezo além de conhecimento de materiais e técnicas novas, através da participação de congressos, 
+    cursos de atualização e aperfeiçoamento, uma odontologiahumanizada, onde o paciente seja tratado de 
+    maneira individualizada e acolhedora"</p>
+
+<div id="horarios">
+    <h3>Nossos horários</h3>
+    <ul>
+        <li>Segunda 9:00 - 15:00</li>
+        <li>Terça 9:00 - 15:00</li>
+        <li>Quarta 9:00 - 15:00</li>
+        <li>Quinta 9:00 - 15:00</li>
+        <li>Sexta 9:00 - 15:00</li>
+        <li>Sabado Fechado</li>
+        <li>domingo fechado</li>
+    </ul>
+    </div>
+
+    <div class="tratamentos" id="tratamentos">
+        <h2>Tratamentos</h2>
+        <div id="parentbox">
+          <div class="tratbox">
+            <div class="tratimg">
+  
+            </div>
+            <div class="trattxt">
+              Odontologia geral
+            </div>
+          </div>
+          <div class="tratbox">
+            <div class="tratimg">
+  
+            </div>
+            <div class="trattxt">
+              clareamento dental
+            </div>
+          </div>
+          <div class="tratbox">
+            <div class="tratimg">
+  
+            </div>
+            <div class="trattxt">
+              prótese fixa imediata
+            </div>
+          </div>
+          <div class="tratbox">
+            <div class="tratimg">
+  
+            </div>
+            <div class="trattxt">
+              Próteses removíveis
+            </div>
+          </div>
+          <div class="tratbox">
+            <div class="tratimg">
+  
+            </div>
+            <div class="trattxt">
+              Auriculoterapia
+            </div>
+          </div>
+          <div class="tratbox">
+            <div class="tratimg">
+  
+            </div>
+            <div class="trattxt">
+              Odontologia miofuncional
+            </div>
+          </div>
+          <div class="tratbox">
+            <div class="tratimg">
+  
+            </div>
+            <div class="trattxt">
+              Odontologia humanizada
+            </div>
+          </div>
+        </div>
