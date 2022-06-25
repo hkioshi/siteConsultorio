@@ -29,7 +29,7 @@ div
    flex-direction: row; 
    align-items: center;
    padding-bottom: 1%;
-   border-bottom: 4px double plum; 
+   border-bottom: 2px double plum; 
 
 }
 
@@ -85,8 +85,8 @@ div
 {
     width: 15%;
     height: 0;
-    padding-bottom: 5%;
-    border-radius: 15px;
+    padding: 1% 0 6% ;
+    border-radius: 17px;
     font-size: 2vw;
     text-align: center;
     line-height: 175%;
@@ -94,6 +94,7 @@ div
     font-weight: bold;
     cursor: pointer;
     user-select: none;
+    text-shadow: 2px 2px #d8d8d86c;
 
 }
 .indiceBotao:hover
@@ -117,11 +118,57 @@ div
     right: 1%;
     bottom: 2%;
     border-radius: 50%;
+    cursor: pointer;
+    background-image: url("imagens/whatsapp-logo-1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 
 }
 
-#teste
+/*pagina inicial*/
+
+#avisobox
 {
+    position: relative;
+    border: 2px solid plum;
+    border-radius: 20px;
+    margin: 1%;
+    height: auto;
+    width: 25%;
+    position: absolute;
+    right: 1%;
+    color: #5f71c8;
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 3vw;
+    font-weight: bold;
+    text-shadow: 2px 2px #0303032d;
+    box-shadow: 1px 1px #0303032d;
+    pointer-events: none;
+    user-select: none;
+
+}
+
+#avisobox h2
+{
+   margin: 10px;
+
+}
+#avisobox p
+{
+    margin: 10px;
+
+}
+
+#slide
+{
+    border: 1px solid black;
+    width: 60%;
     height: 0;
-    padding-bottom: 1000%;
+    padding-bottom: 20%;
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    border-radius: 20px;
 }
