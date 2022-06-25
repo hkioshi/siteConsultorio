@@ -16,55 +16,112 @@ body
 
 div
 {
-    border:1px solid black;
+   
 }
 
 /*Começo do indice*/
+
 #divDoTopo
 {
-    display: flex;
-    padding-bottom: 0;
+   display: flex;
+   width: 100%;
+   height: auto;
+   flex-direction: row; 
+   align-items: center;
+   padding-bottom: 1%;
+   border-bottom: 4px double plum; 
 
 }
 
-#caixaIndice
+/*Logo*/
+
+#logoBox
 {
+    display: flex;
+    width: 20%;
+    height: fit-content;
+    flex-direction: row;
+    align-items: center;
     
-    width: 10%;
-    height: 0;
-    padding-bottom: 4%;
-}
-#caixaLogo
-{
-    display: flex;
-    width: 17%;
-    height: 0;
-    padding-bottom: 7.9%;
 }
 
-#logoImagem
+#imagemLogo
 {
-    width: 40%;
+    width: 50%;
     height: 0;
-    padding-bottom: 40%;
+    padding-bottom: 31%;
     background-image: url("imagens/logo.jpg");
-    background-size: 100%;
-    background-repeat: none;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: 50% ;
+
 }
 
-#logoTitulo
+#textoLogo
 {
-    width:75%;
+    width: 100%;
     height: 0;
-    padding-bottom: 40%;
+    padding-bottom: 20%;
     background-image: url("imagens/título.png");
     background-size: 100%;
-    background-repeat: none;
+    background-repeat: no-repeat;
+    
 }
 
+/*indice*/
 
+#indiceBox
+{
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.indiceBotao
+{
+    width: 15%;
+    height: 0;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    font-size: 2vw;
+    text-align: center;
+    line-height: 175%;
+    transition: all 1s ;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+
+}
+.indiceBotao:hover
+{
+    background-color:#5f71c8  ;
+    color: white;
+    box-shadow: 2px 2px #0303032d;
+    text-shadow: 2px 2px #d8d8d86c;
+
+}
 /*Fim do indice*/
 
-/**/
+/*botao whatsapp*/
 
+#whatsapp
+{
+    width: 5%;
+    height: 0;
+    padding-bottom: 5%;
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+    border-radius: 50%;
 
+}
+
+#teste
+{
+    height: 0;
+    padding-bottom: 1000%;
+}
